@@ -59,7 +59,8 @@ a:focus {
 }
 
 #quote {
-  margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
   font-size: 40px;
   color: #FFFFFF;
   text-shadow:
@@ -70,7 +71,9 @@ a:focus {
 }
 
 #intro {
-  margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 3%;
   font-size: 26px;
   color: #FFFFFF;
   text-shadow:
