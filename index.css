@@ -62,7 +62,7 @@ a:focus {
 #quote {
   margin: 0;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -78,7 +78,7 @@ a:focus {
 #intro {
   margin: 0;
   position: absolute;
-  top: 75%;
+  top: 60%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
