@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 
-@media (min-width: 700px), handheld and (orientation: portrait) {
+@media screen and (orientation:portrait) {
   .mainbody {
     width: 100%
   }
