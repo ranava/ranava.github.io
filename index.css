@@ -1,49 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 
-.container-fluid {
-  margin:0;
-  padding:0;
-  height: 2000px;
-  background-color: #202020;
+body {
+  width: 100%;
+  height: auto;
 }
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    background-color: #101010;
-    opacity: 1;
-    margin-top: 0;
-  }
-
-.navcontainer{
-  width: 35%;
-  position: absolute;
-  right: 0px;
+.medSpacer {
+  height: 45%;
 }
 
-.navbutton{
-  padding-right: 40px;
-}
-
-h4 a {
-  color: #FFFFFF;
-  font-family: Tahoma, Arial, cursive;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-
-a:hover,
-a:focus {
-  color: #58832f;
-  text-decoration: none;
+.smSpacer {
+  height: 5%;
 }
 
 .home {
-  top: 0;
-  height: 25%;
+  height: 60%;
   background: url(http://i1262.photobucket.com/albums/ii617/hiawassee041/landscape-mountains-nature-sky_zpspj5uumuh.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,21 +22,7 @@ a:focus {
 	background-size: cover;
 }
 
-.homespace {
-  height: 50%;
-  padding-top: 25%;
-  margin-left: 15%;
-  margin-right: 15%;
-  position: relative;
-}
-
 #quote {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
   font-size: 40px;
   color: #FFFFFF;
   text-shadow:
@@ -76,12 +33,6 @@ a:focus {
 }
 
 #intro {
-  margin: 0;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
   font-size: 26px;
   color: #FFFFFF;
   text-shadow:
@@ -95,50 +46,18 @@ a:focus {
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
-.mainbody {
-  height: 75%;
-  background-color: #404040;
-}
-
 .about {
-  height: 20%;
-  width: 75%;
-  margin: auto;
+  height: 60%;
+  height: auto;
   background-color: #C0C0C0;
 }
 
-.welcomespace {
-  height: 30%;
-  margin-left: 30%;
-  margin-right: 30%;
-  position: relative;
-}
-
 #welcome {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
   font-size: 50px;
   color: #000000;
 }
 
-.aboutspace {
-  height: 35%;
-  margin-left: 10%;
-  margin-right: 10%;
-  position: relative;
-}
-
 #aboutmetext {
-  margin: 0;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
   font-size: 20px;
   color: #000000;
 }
@@ -148,27 +67,10 @@ a:focus {
 }
 
 .portfolio {
-  height: 60%;
-  width: 75%;
-  padding-bottom: 11%;
-  margin: auto;
-  background-color: #3E4E2D;
-}
-
-.portfoliospace {
-  height: 10%;
-  margin-left: 30%;
-  margin-right: 30%;
-  position: relative;
+  background-color: #2a381b;
 }
 
 #portfoliotext {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
   font-size: 50px;
   color: #FFFFFF;
   text-shadow:
@@ -178,119 +80,26 @@ a:focus {
     1px 1px 0 #000;
 }
 
-.wellspace {
-  height: 90%;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-top: 7%;
-  position: relative;
-}
-
-.well {
-  width: 44.5%;
-  height: 38%;
-  float: left;
-  margin-left: 1.5%;
-  margin-right: 1.5%;
-  padding-top: 0.5%;
-  padding-left: 1%;
-  background-color: #6d8752;
-}
-
-.well p {
-  font-size: 16px;
-}
-
-#well1 {
-  margin: 0;
-  position: absolute;
-  top: 0;
-  left: 13%;
-  margin-right: -87%;
-  transform: translate(-20%, -20%);
-}
-
-#well2 {
-  margin: 0;
-  position: absolute;
-  top: 0;
-  left: 60%;
-  margin-right: -40%;
-  transform: translate(-20%, -20%);
-}
-
-#well3 {
-  margin: 0;
-  position: absolute;
-  top: 39%;
-  left: 13%;
-  margin-right: -87%;
-  transform: translate(-20%, -20%);
-}
-
-#well4 {
-  margin: 0;
-  position: absolute;
-  top: 39%;
-  left: 60%;
-  margin-right: -40%;
-  transform: translate(-20%, -20%);
-}
-
-#well5 {
-  margin: 0;
-  position: absolute;
-  top: 78%;
-  left: 13%;
-  margin-right: -87%;
-  transform: translate(-20%, -20%);
-}
-
-#well6 {
-  margin: 0;
-  position: absolute;
-  top: 78%;
-  left: 60%;
-  margin-right: -40%;
-  transform: translate(-20%, -20%);
+.project {
+  margin: 5px, 20px, 20px, 10px;
+  color: #FFFFFF;
+  font: Courier, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .contact {
-  height: 10%;
-  width: 75%;
-  padding-bottom: -10%;
-  margin: auto;
-  position: relative;
   background-color: #C0C0C0;
-}
-
-.contactspace {
-  height: 30%;
-  margin-left: 15%;
-  margin-right: 15%;
-  position: relative;
 }
 
 #contactme {
   font-size: 50px;
   color: #000000;
-  margin: 0;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
 }
 
 .contactlogos {
   height: 50%;
   width: 50%;
-  margin: 0;
-  position: absolute;
-  top: 70%;
-  left: 55%;
-  margin-right: -45%;
-  transform: translate(-50%, -50%);
 }
 
 .contactlogos img {
