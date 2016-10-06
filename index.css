@@ -3,6 +3,7 @@
 body {
   width: 100%;
   height: auto;
+  background-color: #232323;
 }
 
 .medSpacer {
@@ -46,6 +47,11 @@ body {
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
+.mainbody {
+  width: 75%;
+  margin: auto;
+}
+
 .about {
   height: 60%;
   height: 500px;
@@ -61,7 +67,7 @@ body {
 #aboutmetext {
   font-size: 18px;
   color: #000000;
-  margin: 5px 35px 10px 35px;
+  margin: 5px 65px 10px 65px;
   padding: 40px;
   border-style: solid;
   border-width: 2px;
