@@ -14,7 +14,7 @@ body {
 }
 
 .home {
-  height: 60%;
+  height: 500px;
   background: url(http://i1262.photobucket.com/albums/ii617/hiawassee041/landscape-mountains-nature-sky_zpspj5uumuh.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -48,6 +48,7 @@ body {
 
 .about {
   height: 60%;
+  height: 500px;
   height: auto;
   background-color: #C0C0C0;
 }
