@@ -1,8 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 
-@media screen and (orientation:portrait) {
+@media screen and (orientation: portrait) {
   .mainbody {
     width: 100%
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .mainbody {
+    width: 75%;
+    margin: auto;
   }
 }
 
@@ -51,11 +58,6 @@ body {
 
 .homefont {
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-}
-
-.mainbody {
-  width: 75%;
-  margin: auto;
 }
 
 .about {
