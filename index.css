@@ -4,12 +4,27 @@
   .mainbody {
     width: 100%
   }
+
+  #aboutmetext {
+    font-size: 16px;
+    color: #000000;
+    padding: 30px;
+  }
 }
 
 @media screen and (orientation: landscape) {
   .mainbody {
     width: 75%;
     margin: auto;
+  }
+
+  #aboutmetext {
+    font-size: 18px;
+    color: #000000;
+    margin: 5px 65px 10px 65px;
+    padding: 40px;
+    border-style: solid;
+    border-width: 2px;
   }
 }
 
@@ -70,15 +85,6 @@ body {
 #welcome {
   font-size: 50px;
   color: #000000;
-}
-
-#aboutmetext {
-  font-size: 18px;
-  color: #000000;
-  margin: 5px 65px 10px 65px;
-  padding: 40px;
-  border-style: solid;
-  border-width: 2px;
 }
 
 .bodyfont {
