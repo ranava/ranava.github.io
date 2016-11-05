@@ -44,7 +44,7 @@ body {
 
 .home {
   height: 500px;
-  background: url("landscape-mountains-nature-sky.jpg") no-repeat center center;
+  background: url("images/landscape-mountains-nature-sky.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
 	-o-background-size: cover;
