@@ -44,7 +44,7 @@ body {
 
 .home {
   height: 500px;
-  background: url(http://i1262.photobucket.com/albums/ii617/hiawassee041/landscape-mountains-nature-sky_zpspj5uumuh.jpg) no-repeat center center;
+  background: url("landscape-mountains-nature-sky.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
 	-o-background-size: cover;
@@ -89,6 +89,11 @@ body {
 
 .bodyfont {
   font: Arial, sans-serif;
+}
+
+.float {
+  float: right;
+  border-radius: 40%;
 }
 
 .portfolio {
