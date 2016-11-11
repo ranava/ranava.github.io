@@ -7,7 +7,7 @@ $(document).ready(function(){
     navigator.geolocation.getCurrentPosition(function(position) {
       lat = position.coords.latitude;
       lon = position.coords.longitude;
-      api = 'http://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lon+'&appid=973de58f1f5eef677b6bf3347b1ff70a';
+      api = 'https://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lon+'&appid=973de58f1f5eef677b6bf3347b1ff70a';
 
       $.getJSON(api, function(data){
         var loc = data.name;
@@ -67,5 +67,3 @@ $(document).ready(function(){
                                              });
   }
                                              });
-
-                                          
