@@ -1,6 +1,6 @@
 var quotes = [
   ["Not all those who wander are lost.", "- J.R.R.Tolkien"],
-  ["The significant problems we face cannot be solved at the same level of thinking we were at when we created them.", "- Albert Einstein"],
+  ["Quiet people have the loudest minds.", "- Stephen King"],
   ["It's kind of fun to do the impossible.", "- Walt Disney"],
   ["A lie gets halfway around the world before the truth has a chance to get its pants on.", "- Sir Winston Churchill"],
   ["If you can't get rid of the skeleton in your closet, you'd best teach it to dance.", "- George Bernard Shaw"],
