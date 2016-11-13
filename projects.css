@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Sansita+One);
+
+body {
+  background-color: #C6E2FF;
+}
+
+.title {
+  margin: 7% 10% 7% 10%;
+  padding: 3% 0% 3% 0%;
+  background-color: #990000;
+}
+
+h1 {
+  font-family: "Sansita One", Arial, cursive;
+  color: #FFFFFF;
+  font-size: 60px;
+}
