@@ -1,0 +1,63 @@
+@import
+url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+@media screen and (max-width: 600px) {
+  .box {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .box {
+    width: 65%;
+    margin-left: 20%;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  background-size: 100%;
+  color: white;
+}
+
+.box {
+  background-color: #93c572;
+  border: 2px solid white;
+  height: 65%;
+  margin-top: 5%;
+  margin-right: 30%;
+  padding: 0% 2% 0% 2%;
+  border-radius: 25px;
+}
+
+h3 {
+  color: #000000;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 26px;
+  padding: 3% 4% 0% 4%;
+  text-shadow:
+    -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+}
+
+#author {
+  padding-bottom: 6%;
+}
+
+a {
+  color: white;
+}
+
+button {
+  background: none;
+  outline: 2px solid;
+}
+
+button:hover {
+  background: white;
+}
