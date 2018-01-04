@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Chewy|Lobster|Architects+Daughter');
 
 body {
-  min-width: 380px;
+  min-width: 360px;
 }
 
 #accordion {
   border: 2px solid black;
-  width: 400px;
+  width: 360px;
   margin: 0 auto;
   background: #cce6ff;
 }
@@ -30,13 +30,13 @@ h3 {
 }
 
 table {
-  width: 375px;
+  width: 360px;
   height: 400px;
   margin: 0 auto;
 }
 
 th {
-  width: 50px;
+  width: 40px;
   background: #99ceff;
   text-align: center;
 }
