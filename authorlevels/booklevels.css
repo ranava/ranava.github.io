@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam|Kaushan+Script');
+
+body {
+  min-width: 350px;
+  background-color: #f6f6f6;
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  color: #f6f6f6;
+  letter-spacing: 3px;
+}
+.display {
+  width: 95%;
+  background-color: #161616;
+  margin: 0 auto;
+  padding-top: 15px;
+  border-radius: 15px;
+}
+
+/*screen width over 400px*/
+@media (min-width: 421px){
+  .booktodo {
+    width:490px;
+    margin: 0 auto;
+  }
+  #one  {
+    float: left;
+  }
+  #two{
+    margin-left: 50.25%;
+  }
+  .levels {
+    width:550px;
+    margin: 0 auto;
+  }
+  #three  {
+    float: left;
+  }
+  #four{
+    float: left;
+    margin-left: 5px;
+  }
+  #five {
+    float: left;
+    margin-left: 5px;
+  }
+}
+/*screen upto 400px*/
+@media (max-width: 420px){
+  .booktodo {
+    margin: 0 auto;
+  }
+  .row {
+    width: 245px;
+    margin: 0 auto;
+  }
+  .levels {
+    margin: 0 auto;
+  }
+  .smrow {
+    width: 183px;
+    margin: 0 auto;
+  }
+}
+
+p {
+  color: white;
+  font-family: 'Kalam', cursive;
+  text-align: center;
+  clear: left;
+}
+
+.seafood {
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.booktitle {
+  padding-bottom: 10px;
+}
+
+.titleinput {
+  width: 245px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+button {
+  text-align:center;
+  margin-top: 5px;
+}
+
+.promptdisplay {
+  width: 80%;
+  background-color: #161616;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-top: 5px;
+  border-radius: 15px;
+}
+
+.separater {
+  margin-top: 15px;
+  height: 35px;
+}
