@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Author Progress</title>
+    <link rel="stylesheet" href="booklevels.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="booklevels.js"></script>
+    <script src="booklevelsshields.js"></script>
+    <script src="booktitle.js"></script>
+  </head>
+  <body>
+    <div class="display">
+      <div class="booktitle">
+        <h2><span id="topbooktitle">Your Current Title</span></h2>
+      </div>
+      <div class="booktodo">
+        <!-- Write 25%, Write 50%, Write 75%, First Draft!, Self Edits, Final Edits,
+        Cover Art, Publish ... beneath the buttons, a percentage of how much done -->
+        <div class="row" id="one">
+          <img src="booktemplate.png" id="bookone" onclick="changeImageOne()" style="width:57.6px;height:43.2px;">
+          <img src="booktemplate.png" id="booktwo" onclick="changeImageTwo()" style="width:57.6px;height:43.2px;">
+          <img src="booktemplate.png" id="bookthree" onclick="changeImageThree()" style="width:57.6px;height:43.2px;">
+          <img src="booktemplate.png" id="bookfour" onclick="changeImageFour()" style="width:57.6px;height:43.2px;">
+        </div>
+        <div class="row" id="two">
+          <img src="booktemplate.png" id="bookfive" onclick="changeImageFive()" style="width:57.6px;height:43.2px;">
+          <img src="booktemplate.png" id="booksix" onclick="changeImageSix()" style="width:57.6px;height:43.2px;">
+          <img src="booktemplate.png" id="bookseven" onclick="changeImageSeven()" style="width:57.6px;height:43.2px;">
+          <img src="booktemplate.png" id="bookeight" onclick="changeImageEight()" style="width:57.6px;height:43.2px;">
+        </div>
+        <p>This project is 0% done!<p>
+      </div>
+    <div class="promptdisplay">
+      <div class="prompts">
+        <p>What is the title of this project?</p>
+        <!-- place to type in title, everything else is click reaction...can click on individual buttons
+        for book to do progress, then click on one level, everything below is lights up-->
+        <div class="titleinput">
+          <form>
+            <input type="text" id="titlebox" >
+            <button onclick="titleUpdate()" type="button" id="submit">Your Progress!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="separater">
+    </div>
+    <div class="booktitle">
+      <h2>Are you on the Seafood Menu?</h2>
+    </div>
+    <div class="levels">
+      <div class="smrow" id="three">
+        <img src="shieldtemplate.png" id="shieldone" onclick="changeShieldOne()">
+        <img src="shieldtemplate.png" id="shieldtwo" onclick="changeShieldTwo()">
+        <img src="shieldtemplate.png" id="shieldthree" onclick="changeShieldThree()">
+        <img src="shieldtemplate.png" id="shieldfour" onclick="changeShieldFour()">
+      </div>
+      <div class="smrow" id="four">
+        <img src="shieldtemplate.png" id="shieldfive" onclick="changeShieldFive()">
+        <img src="shieldtemplate.png" id="shieldsix" onclick="changeShieldSix()">
+        <img src="shieldtemplate.png" id="shieldseven" onclick="changeShieldSeven()">
+        <img src="shieldtemplate.png" id="shieldeight" onclick="changeShieldEight()">
+      </div>
+      <div class="smrow" id="five">
+        <img src="shieldtemplate.png" id="shieldnine" onclick="changeShieldNine()">
+        <img src="shieldtemplate.png" id="shieldten" onclick="changeShieldTen()">
+        <img src="shieldtemplate.png" id="shieldeleven" onclick="changeShieldEleven()">
+        <img src="shieldtemplate.png" id="shieldtwelve" onclick="changeShieldTwelve()">
+      </div>
+      <p class="seafood">You are <span id="leveltitle">an Algae!</span><p>
+    </div>
+  </body>
+</html>
