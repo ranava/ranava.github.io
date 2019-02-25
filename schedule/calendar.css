@@ -25,6 +25,15 @@ body {
     font-family: Lobster, sans-serif;
 }
 
+.shiftbutton {
+  color: black;
+  margin: 5px 10px 5px 10px;
+  padding: 6px 25px 6px 25px;
+  font-size: 18px;
+  border: 2px solid black;
+  cursor: pointer;
+  font-family: Lobster, sans-serif;
+}
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
