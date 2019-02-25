@@ -1,15 +1,14 @@
 window.onload = function () {
-  $("#accordion18").accordion();
   $("#accordion19").accordion();
   $("#accordion20").accordion();
   $('.calendars').hide();
-  $('.2018').show();
+  $('.2019').show();
 }
 
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("Dropdown").classList.toggle("show");
 }
 
 // Close the dropdown menu if the user clicks outside of it
