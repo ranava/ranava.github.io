@@ -1,7 +1,8 @@
 window.onload = function () {
-  $("#accordion19B").accordion();
-  $("#accordion20B").accordion();
+  $("#accordion19").accordion();
+  $("#accordion20").accordion();
   $('.calendars').hide();
+  $('.2019').show();
 }
 
 /* When the user clicks on the button,
