@@ -1,6 +1,7 @@
 window.onload = function () {
   $("#accordion19").accordion();
   $("#accordion20").accordion();
+  $("#accordion21").accordion();
   $('.calendars').hide();
   $('.2020').show();
 }
