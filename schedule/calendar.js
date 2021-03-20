@@ -3,7 +3,7 @@ window.onload = function () {
   $("#accordion20").accordion();
   $("#accordion21").accordion();
   $('.calendars').hide();
-  $('.2020').show();
+  $('.2021').show();
 }
 
 /* When the user clicks on the button,
