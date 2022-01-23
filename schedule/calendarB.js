@@ -1,7 +1,6 @@
 window.onload = function () {
-  $("#accordion20").accordion();
-  $("#accordion21").accordion();
   $("#accordion22").accordion();
+  $("#accordion23").accordion();
   $('.calendars').hide();
   $('.2022').show();
 }
