@@ -6,7 +6,7 @@ body {
 }
 
 .menubuttons {
-  width: 320px;
+  width: 370px;
   margin: 0 auto;
   padding: 5px;
   text-align: center;
@@ -94,6 +94,9 @@ a:visited {
 
 h3 {
     text-align: center;
+    color: black;
+    font-family: Lobster, sans-serif;
+    font-size: 24px;
 }
 
 table {
