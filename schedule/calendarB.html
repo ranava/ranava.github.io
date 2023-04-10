@@ -9,307 +9,22 @@
     <script src="calendarB.js"></script>
   </head>
   <body>
-    <h3>10 Hour Shifts</h3>
+    <h3>12 Hour Shifts</h3>
     <div class="menubuttons">
-      <div class="dropdown">
-        <button onclick="window.location.href = 'calendar.html';" class="shiftbutton" style="background-color: #cce6ff;">Shift A</button>
-      </div>
-      <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn" style="background-color: #80c996;">Shift B</button>
-        <div id="Dropdown" class="dropdown-content">
+      <!-- <div class="dropdown"> -->
+      <button onclick="myFunction()" class="dropbtn" style="background-color: #80c996;">A/B - 2023</button>
+        <button onclick="window.location.href = 'calendar.html';" class="shiftbutton" style="background-color: #cce6ff;">C/D - 2023</button>
+      <!-- </div>
+      <div class="dropdown"> -->
+
+        <!-- <div id="Dropdown" class="dropdown-content">
           <a href="#" onClick="yearChange(2022)">2022</a>
           <a href="#" onClick="yearChange(2023)">2023</a>
         </div>
-      </div>
-    </div>
-    <div class="2022 calendars" id="accordion22">
-      <h3><a href="#">January 2022</a></h3>
-      <div>
-        <table align="center" border=2 cellpadding=3>
-          <tr>
-            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
-          </tr>
-          <tr>
-            <td></td><td></td><td></td><td></td><td></td><td></td><td id="1">1 <span><br>W</span></td>
-          </tr>
-          <tr>
-            <td id="2">2 <span><br>W</span></td><td id="3">3 <span><br>W</span></td><td id="4">4 </td><td id="5">5 </td><td id="6">6 </td><td id="7">7 <span><br>W</span> <font color="red"><strong>P</strong> </td><td id="8">8 <span><br>W</span> </td>
-          </tr>
-          <tr>
-            <td id="9">9 <span><br>W</span></td><td id="10">10 <span><br>W</span></td><td id="11">11 </td><td id="12">12 </td><td id="13">13 </td><td id="14">14 <span><br>W</span></td><td id="15">15 </td>
-          </tr>
-          <tr>
-            <td id="16">16 </td><td id="17">17 </td><td id="18">18 <span><br>W</span></td><td id="19">19 <span><br>W</span></td><td id="20">20 <span><br>W</span></td><td id="21">21 <span><br>W</span> <font color="red"><strong>P</strong> </td><td id="22">22 </td>
-          </tr>
-          <tr>
-            <td id="23">23 </td><td id="24">24 </td><td id="25">25 <span><br>W</span></td><td id="26">26 <span><br>W</span></td><td id="27">27 <span><br>W</span></td><td id="28">28 <span><br>W</span></td><td id="29">29 </td>
-          </tr>
-          <tr>
-            <td id="30">30 </td><td id="31">31 </td><td></td><td></td><td></td><td></td><td></td>
-          </tr>
-        </table>
-      </div>
-      <h3><a href="#">February 2022</a></h3>
-      <div>
-        <table align="center" border=2 cellpadding=3>
-          <tr>
-            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
-          </tr>
-          <tr>
-            <td></td><td></td><td id="1">1 <span><br>W</span></td><td id="2">2 <span><br>W</span></td><td id="3">3 <span><br>W</span></td><td id="4">4 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="5">5 </td>
-          </tr>
-          <tr>
-            <td id="6">6 </td><td id="7">7 </td><td id="8">8 <span><br>W</span></td><td id="9">9 <span><br>W</span></td><td id="10">10 <span><br>W</span></td><td id="11">11 <span><br>W</span></td><td id="12">12 <span><br>W</span></td>
-          </tr>
-          <tr>
-            <td id="13">13 <span><br>W</span></td><td id="14">14 <span><br>W</span></td><td id="15">15 </td><td id="16">16 </td><td id="17">17 </td><td id="18">18 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="19">19 <span><br>W</span> </td>
-          </tr>
-          <tr>
-            <td id="20">20 <span><br>W</span></td><td id="21">21 <span><br>W</span></td><td id="22">22 </td><td id="23">23 </td><td id="24">24 </td><td id="25">25 <span><br>W</span></td><td id="26">26 <span><br>W</span></td>
-          <tr>
-            <td id="27">27 <span><br>W</span></td><td id="28">28 <span><br>W</span></td><td></td><td></td><td></td><td></td><td></td>
-          </tr>
-        </table>
-      </div>
-      <h3><a href="#">March 2022</a></h3>
-      <div>
-        <table align="center" border=2 cellpadding=3>
-          <tr>
-            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
-          </tr>
-          <tr>
-            <td></td><td></td><td id="1">1 </td><td id="2">2 </td><td id="3">3 </td><td id="4">4 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="5">5 <span><br>W</span> </td>
-          </tr>
-          <tr>
-            <td id="6">6 <span><br>W</span></td><td id="7">7 <span><br>W</span></td><td id="8">8 </td><td id="9">9 </td><td id="10">10 </td><td id="11">11 <span><br>W</span></td><td id="12">12 </td>
-          </tr>
-          <tr>
-            <td id="13">13 </td><td id="14">14 </td><td id="15">15 <span><br>W</span></td><td id="16">16 <span><br>W</span></td><td id="17">17 <span><br>W</span></td><td id="18">18 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="19">19 </td>
-          </tr>
-          <tr>
-            <td id="20">20 </td><td id="21">21 </td><td id="22">22 <span><br>W</span> </td><td id="23">23 <span><br>W</span></td><td id="24">24 <span><br>W</span></td><td id="25">25 <span><br>W</span></td><td id="26">26 </td>
-          </tr>
-          <tr>
-            <td id="27">27 </td><td id="28">28 </td><td id="29">29 <span><br>W</span></td><td id="30">30 <span><br>W</span></td><td id="31">31 <span><br>W</span></td><td></td><td></td>
-          </tr>
-        </table>
-      </div>
-      <h3><a href="#">April 2022</a></h3>
-      <div>
-        <table align="center" border=2 cellpadding=3>
-          <tr>
-            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
-          </tr>
-          <tr>
-            <td></td><td></td><td></td><td></td><td></td><td id="1">1 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="2">2  </td>
-          </tr>
-          <tr>
-            <td id="3">3 </td><td id="4">4 </td><td id="5">5 <span><br>W</span> </td><td id="6">6 <span><br>W</span></td><td id="7">7 <span><br>W</span></td><td id="8">8 <span><br>W</span></td><td id="9">9 <span><br>W</span></td>
-          </tr>
-          <tr>
-            <td id="10">10 <span><br>W</span></td><td id="11">11 <span><br>W</span></td><td id="12">12 </td><td id="13">13 </td><td id="14">14 </td><td id="15">15 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="16">16 <span><br>W</span> </td>
-          </tr>
-          <tr>
-            <td id="17">17 <span><br>W</span></td><td id="18">18 <span><br>W</span></td><td id="19">19 </td><td id="20">20 </td><td id="21">21 </td><td id="22">22 <span><br>W</span></td><td id="23">23 <span><br>W</span></td>
-          </tr>
-          <tr>
-            <td id="24">24 <span><br>W</span></td><td id="25">25 <span><br>W</span></td><td id="26">26 </td><td id="27">27 </td><td id="28">28 </td><td id="29">29 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="30">30 <span><br>W</span> </td>
-          </tr>
-        </table>
-      </div>
-      <h3><a href="#">May 2022</a></h3>
-      <div>
-        <table align="center" border=2 cellpadding=3>
-          <tr>
-            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
-          </tr>
-          <tr>
-            <td id="1">1 <span><br>W</span></td><td id="2">2 <span><br>W</span></td><td id="3">3 </td><td id="4">4 </td><td id="5">5 </td><td id="6">6 <span><br>W</span></td><td id="7">7 </td>
-          </tr>
-          <tr>
-            <td id="8">8 </td><td id="9">9 </td><td id="10">10 <span><br>W</span></td><td id="11">11 <span><br>W</span></td><td id="12">12 <span><br>W</span></td><td id="13">13 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="14">14 </td>
-          </tr>
-          <tr>
-            <td id="15">15 </td><td id="16">16 </td><td id="17">17 <span><br>W</span> </td><td id="18">18 <span><br>W</span></td><td id="19">19 <span><br>W</span></td><td id="20">20 <span><br>W</span></td><td id="21">21 </td>
-          </tr>
-          <tr>
-            <td id="22">22 </td><td id="23">23 </td><td id="24">24 <span><br>W</span></td><td id="25">25 <span><br>W</span></td><td id="26">26 <span><br>W</span></td><td id="27">27 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="28">28 </td>
-          </tr>
-          <tr>
-            <td id="29">29 </td><td id="30">30 </td><td id="31">31 <span><br>W</span> </td><td></td><td></td><td></td><td></td>
-          </tr>
-        </table>
-      </div>
-      <h3><a href="#">June 2022</a></h3>
-      <div>
-        <table align="center" border=2 cellpadding=3>
-          <tr>
-            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
-          </tr>
-          <tr>
-            <td></td><td></td><td></td><td id="1">1 <span><br>W</span></td><td id="2">2 <span><br>W</span></td><td id="3">3 <span><br>W</span></td><td id="4">4 <span><br>W</span></td>
-          </tr>
-          <tr>
-            <td id="5">5 <span><br>W</span></td><td id="6">6 <span><br>W</span></td><td id="7">7 </td><td id="8">8 </td><td id="9">9 </td><td id="10">10 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="11">11 <span><br>W</span> </td>
-          </tr>
-          <tr>
-            <td id="12">12 <span><br>W</span></td><td id="13">13 <span><br>W</span></td><td id="14">14 </td><td id="15">15 </td><td id="16">16 </td><td id="17">17 <span><br>W</span></td><td id="18">18 <span><br>W</span></td>
-          </tr>
-          <tr>
-            <td id="19">19 <span><br>W</span></td><td id="20">20 <span><br>W</span></td><td id="21">21 </td><td id="22">22 </td><td id="23">23 </td><td id="24">24 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="25">25 <span><br>W</span> </td>
-          </tr>
-          <tr>
-            <td id="26">26 <span><br>W</span></td><td id="27">27 <span><br>W</span></td><td id="28">28 </td><td id="29">29 </td><td id="30">30 </td><td></td><td></td>
-          </tr>
-        </table>
-      </div>
-      <h3><a href="#">July 2022</a></h3>
-      <div>
-        <table align="center" border=2 cellpadding=3>
-          <tr>
-            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
-          </tr>
-          <tr>
-            <td></td><td></td><td></td><td></td><td></td><td id="1">1 <span><br>W</span></td><td id="2">2 </td>
-          </tr>
-          <tr>
-            <td id="3">3 </td><td id="4">4 </td><td id="5">5 <span><br>W</span></td><td id="6">6 <span><br>W</span></td><td id="7">7 <span><br>W</span></td><td id="8">8 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="9">9 </td>
-          </tr>
-          <tr>
-            <td id="10">10 </td><td id="11">11 </td><td id="12">12 <span><br>W</span></td><td id="13">13 <span><br>W</span></td><td id="14">14 <span><br>W</span></td><td id="15">15 <span><br>W</span></td><td id="16">16 </td>
-          </tr>
-          <tr>
-            <td id="17">17 </td><td id="18">18 </td><td id="19">19 <span><br>W</span></td><td id="20">20 <span><br>W</span></td><td id="21">21 <span><br>W</span></td><td id="22">22 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="23">23 </td>
-          </tr>
-          <tr>
-            <td id="24">24 </td><td id="25">25 </td><td id="26">26 <span><br>W</span> </td><td id="27">27 <span><br>W</span></td><td id="28">28 <span><br>W</span></td><td id="29">29 <span><br>W</span></td><td id="30">30 <span><br>W</span></td>
-          </tr>
-          <tr>
-            <td id="31">31 <span><br>W</span></td><td></td><td></td><td></td><td></td><td></td><td></td>
-          </tr>
-        </table>
-      </div>
-      <h3><a href="#">August 2022</a></h3>
-      <div>
-        <table align="center" border=2 cellpadding=3>
-          <tr>
-            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
-          </tr>
-          <tr>
-            <td></td><td id="1">1 <span><br>W</span></td><td id="2">2 </td><td id="3">3 </td><td id="4">4 </td><td id="5">5 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="6">6 <span><br>W</span> </td>
-          </tr>
-          <tr>
-            <td id="7">7 <span><br>W</span></td><td id="8">8 <span><br>W</span></td><td id="9">9 </td><td id="10">10 </td><td id="11">11 </td><td id="12">12 <span><br>W</span></td><td id="13">13 <span><br>W</span></td>
-          </tr>
-          <tr>
-            <td id="14">14 <span><br>W</span></td><td id="15">15 <span><br>W</span></td><td id="16">16 </td><td id="17">17 </td><td id="18">18 </td><td id="19">19 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="20">20 <span><br>W</span> </td>
-          </tr>
-          <tr>
-            <td id="21">21 <span><br>W</span></td><td id="22">22 <span><br>W</span></td><td id="23">23 </td><td id="24">24 </td><td id="25">25 </td><td id="26">26 <span><br>W</span></td><td id="27">27 </td>
-          </tr>
-          <tr>
-            <td id="28">28 </td><td id="29">29 </td><td id="30">30 <span><br>W</span></td><td id="31">31 <span><br>W</span></td><td></td><td></td><td></td>
-          </tr>
-        </table>
-      </div>
-      <h3><a href="#">September 2022</a></h3>
-      <div>
-        <table align="center" border=2 cellpadding=3>
-          <tr>
-            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
-          </tr>
-          <tr>
-            <td></td><td></td><td></td><td></td><td id="1">1 <span><br>W</span></td><td id="2">2 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="3">3 </td>
-          </tr>
-          <tr>
-            <td id="4">4 </td><td id="5">5 </td><td id="6">6 <span><br>W</span> </td><td id="7">7 <span><br>W</span></td><td id="8">8 <span><br>W</span></td><td id="9">9 <span><br>W</span></td><td id="10">10 </td>
-          </tr>
-          <tr>
-            <td id="11">11 </td><td id="12">12 </td><td id="13">13 <span><br>W</span></td><td id="14">14 <span><br>W</span></td><td id="15">15 <span><br>W</span></td><td id="16">16 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="17">17 </td>
-          </tr>
-          <tr>
-            <td id="18">18 </td><td id="19">19 </td><td id="20">20 <span><br>W</span> </td><td id="21">21 <span><br>W</span></td><td id="22">22 <span><br>W</span></td><td id="23">23 <span><br>W</span></td><td id="24">24 <span><br>W</span></td>
-          </tr>
-          <tr>
-            <td id="25">25 <span><br>W</span></td><td id="26">26 <span><br>W</span></td><td id="27">27 </td><td id="28">28 </td><td id="29">29 </td><td id="30">30 <span><br>W</span> <font color="red"><strong>P</strong></td><td></td>
-          </tr>
-        </table>
-      </div>
-      <h3><a href="#">October 2022</a></h3>
-      <div>
-        <table align="center" border=2 cellpadding=3>
-          <tr>
-            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
-          </tr>
-          <tr>
-            <td></td><td></td><td></td><td></td><td></td><td></td><td id="1">1 <span><br>W</span> </td>
-          </tr>
-          <tr>
-            <td id="2">2 <span><br>W</span></td><td id="3">3 <span><br>W</span></td><td id="4">4 </td><td id="5">5 </td><td id="6">6 </td><td id="7">7 <span><br>W</span></td><td id="8">8 <span><br>W</span></td>
-          </tr>
-          <tr>
-            <td id="9">9 <span><br>W</span></td><td id="10">10 <span><br>W</span></td><td id="11">11 </td><td id="12">12 </td><td id="13">13 </td><td id="14">14 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="15">15 <span><br>W</span> </td>
-          </tr>
-          <tr>
-            <td id="16">16 <span><br>W</span></td><td id="17">17 <span><br>W</span></td><td id="18">18 </td><td id="19">19 </td><td id="20">20 </td><td id="21">21 <span><br>W</span></td><td id="22">22 </td>
-          </tr>
-          <tr>
-            <td id="23">23 </td><td id="24">24 </td><td id="25">25 <span><br>W</span></td><td id="26">26 <span><br>W</span></td><td id="27">27 <span><br>W</span></td><td id="28">28 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="29">29 </td>
-          </tr>
-          <tr>
-            <td id="30">30 </td><td id="31">31 </td><td></td><td></td><td></td><td></td><td></td>
-          </tr>
-        </table>
-      </div>
-      <h3><a href="#">November 2022</a></h3>
-      <div>
-        <table align="center" border=2 cellpadding=3>
-          <tr>
-            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
-          </tr>
-          <tr>
-            <td></td><td></td><td id="1">1 <span><br>W</span></td><td id="2">2 <span><br>W</span></td><td id="3">3 <span><br>W</span></td><td id="4">4 <span><br>W</span></td><td id="5">5 </td>
-          </tr>
-          <tr>
-            <td id="6">6 </td><td id="7">7 </td><td id="8">8 <span><br>W</span></td><td id="9">9 <span><br>W</span></td><td id="10">10 <span><br>W</span></td><td id="11">11 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="12">12 </td>
-          </tr>
-          <tr>
-            <td id="13">13 </td><td id="14">14 </td><td id="15">15 <span><br>W</span> </td><td id="16">16 <span><br>W</span></td><td id="17">17 <span><br>W</span></td><td id="18">18 <span><br>W</span></td><td id="19">19 <span><br>W</span></td>
-          </tr>
-          <tr>
-            <td id="20">20 <span><br>W</span></td><td id="21">21 <span><br>W</span></td><td id="22">22 </td><td id="23">23 </td><td id="24">24 </td><td id="25">25 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="26">26 <span><br>W</span> </td>
-          </tr>
-          <tr>
-            <td id="27">27 <span><br>W</span></td><td id="28">28 <span><br>W</span></td><td id="29">29 </td><td id="30">30 </td><td></td><td></td><td></td>
-          </tr>
-        </table>
-      </div>
-      <h3><a href="#">December 2022</a></h3>
-      <div>
-        <table align="center" border=2 cellpadding=3>
-          <tr>
-            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
-          </tr>
-          <tr>
-            <td></td><td></td><td></td><td></td><td id="1">1 </td><td id="2">2 <span><br>W</span></td><td id="3">3 <span><br>W</span></td>
-          </tr>
-          <tr>
-            <td id="4">4 <span><br>W</span></td><td id="5">5 <span><br>W</span></td><td id="6">6 </td><td id="7">7 </td><td id="8">8 </td><td id="9">9 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="10">10 <span><br>W</span> </td>
-          </tr>
-          <tr>
-            <td id="11">11 <span><br>W</span></td><td id="12">12 <span><br>W</span></td><td id="13">13 </td><td id="14">14 </td><td id="15">15 </td><td id="16">16 <span><br>W</span></td><td id="17">17 </td>
-          </tr>
-          <tr>
-            <td id="18">18 </td><td id="19">19 </td><td id="20">20 <span><br>W</span></td><td id="21">21 <span><br>W</span></td><td id="22">22 <span><br>W</span></td><td id="23">23 <span><br>W</span> <font color="red"><strong>P</strong><td id="24">24 </td>
-          </tr>
-          <tr>
-            <td id="25">25 </td><td id="26">26 </td><td id="27">27 <span><br>W</span> </td><td id="28">28 <span><br>W</span></td><td id="29">29 <span><br>W</span></td><td id="30">30 <span><br>W</span></td><td id="31">31 </td>
-          </tr>
-        </table>
-      </div>
+      </div> -->
     </div>
     <div class="2023 calendars" id="accordion23">
-      <h3><a href="#">January 2023</a></h3>
+      <!-- <h3><a href="#">January 2023</a></h3>
       <div>
         <table align="center" border=2 cellpadding=3>
           <tr>
@@ -377,7 +92,7 @@
             <td id="26">26 <span><br>W</span></td><td id="27">27 <span><br>W</span></td><td id="28">28 </td><td id="29">29 </td><td id="30">30 </td><td id="31">31 <span><br>W</span> <font color="red"><strong>P</strong></td><td></td>
           </tr>
         </table>
-      </div>
+      </div> -->
       <h3><a href="#">April 2023</a></h3>
       <div>
         <table align="center" border=2 cellpadding=3>
@@ -385,22 +100,22 @@
             <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
           </tr>
           <tr>
-            <td></td><td></td><td></td><td></td><td></td><td></td><td id="1">1 <span><br>W</span></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td id="1">1 </td>
           </tr>
           <tr>
-            <td id="2">2 <span><br>W</span></td><td id="3">3 <span><br>W</span></td><td id="4">4 </td><td id="5">5 </td><td id="6">6 </td><td id="7">7 <span><br>W</span></td><td id="8">8 </td>
+            <td id="2">2 </td><td id="3">3 </td><td id="4">4 </td><td id="5">5 </td><td id="6">6 </td><td id="7">7 <td id="8">8 </td>
           </tr>
           <tr>
-            <td id="9">9 </td><td id="10">10 </td><td id="11">11 <span><br>W</span></td><td id="12">12 <span><br>W</span></td><td id="13">13 <span><br>W</span></td><td id="14">14 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="15">15 </td>
+            <td id="9">9 </td><td id="10">10 <span><br>W</span></td><td id="11">11 <span><br>W</span></td><td id="12">12 </td><td id="13">13 </td><td id="14">14 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="15">15 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="16">16 </td><td id="17">17 </td><td id="18">18 <span><br>W</span></td><td id="19">19 <span><br>W</span></td><td id="20">20 <span><br>W</span></td><td id="21">21 <span><br>W</span></td><td id="22">22 </td>
+            <td id="16">16 <span><br>W</span></td><td id="17">17 </td><td id="18">18 </td><td id="19">19 <span><br>W</span></td><td id="20">20 <span><br>W</span></td><td id="21">21 </td><td id="22">22 </td>
           </tr>
           <tr>
-            <td id="23">23 </td><td id="24">24 </td><td id="25">25 <span><br>W</span></td><td id="26">26 <span><br>W</span></td><td id="27">27 <span><br>W</span></td><td id="28">28 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="29">29 </td>
+            <td id="23">23 </td><td id="24">24 <span><br>W</span></td><td id="25">25 <span><br>W</span></td><td id="26">26 </td><td id="27">27 </td><td id="28">28 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="29">29 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="30">30 </td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td id="30">30 <span><br>W</span></td><td></td><td></td><td></td><td></td><td></td><td></td>
           </tr>
         </table>
       </div>
@@ -411,19 +126,19 @@
             <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
           </tr>
           <tr>
-            <td></td><td id="1">1 </td><td id="2">2 <span><br>W</span></td><td id="3">3 <span><br>W</span></td><td id="4">4 <span><br>W</span></td><td id="5">5 <span><br>W</span></td><td id="6">6 <span><br>W</span></td>
+            <td></td><td id="1">1 </td><td id="2">2 </td><td id="3">3 <span><br>W</span></td><td id="4">4 <span><br>W</span></td><td id="5">5 </td><td id="6">6 </td>
           </tr>
           <tr>
-            <td id="7">7 <span><br>W</span></td><td id="8">8 <span><br>W</span></td><td id="9">9 </td><td id="10">10 </td><td id="11">11 </td><td id="12">12 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="13">13 <span><br>W</span></td>
+            <td id="7">7 </td><td id="8">8 <span><br>W</span></td><td id="9">9 <span><br>W</span></td><td id="10">10 </td><td id="11">11 </td><td id="12">12 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="13">13 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="14">14 <span><br>W</span></td><td id="15">15 <span><br>W</span></td><td id="16">16 </td><td id="17">17  </td><td id="18">18 </td><td id="19">19 <span><br>W</span></td><td id="20">20 <span><br>W</span></td>
+            <td id="14">14 <span><br>W</span></td><td id="15">15 </td><td id="16">16 </td><td id="17">17 <span><br>W</span></td><td id="18">18 <span><br>W</span></td><td id="19">19 </td><td id="20">20 </td>
           </tr>
           <tr>
-            <td id="21">21 <span><br>W</span></td><td id="22">22 <span><br>W</span></td><td id="23">23 </td><td id="24">24 </td><td id="25">25 </td><td id="26">26 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="27">27 <span><br>W</span></td>
+            <td id="21">21 </td><td id="22">22 <span><br>W</span></td><td id="23">23 <span><br>W</span></td><td id="24">24 </td><td id="25">25 </td><td id="26">26 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="27">27 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="28">28 <span><br>W</span></td><td id="29">29 <span><br>W</span> </td><td id="30">30 </td><td id="31">31  </td><td></td><td></td><td></td>
+            <td id="28">28 <span><br>W</span></td><td id="29">29 </td><td id="30">30 </td><td id="31">31 <span><br>W</span></td><td></td><td></td><td></td>
           </tr>
         </table>
       </div>
@@ -434,19 +149,19 @@
             <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
           </tr>
           <tr>
-            <td></td><td></td><td></td><td></td><td id="1">1 </td><td id="2">2 <span><br>W</span></td><td id="3">3 </td>
+            <td></td><td></td><td></td><td></td><td id="1">1 <span><br>W</span></td><td id="2">2 </td><td id="3">3 </td>
           </tr>
           <tr>
-            <td id="4">4 </td><td id="5">5 </td><td id="6">6 <span><br>W</span></td><td id="7">7 <span><br>W</span></td><td id="8">8 <span><br>W</span></td><td id="9">9 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="10">10 </td>
+            <td id="4">4 </td><td id="5">5 <span><br>W</span></td><td id="6">6 <span><br>W</span></td><td id="7">7 </td><td id="8">8 </td><td id="9">9 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="10">10 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="11">11 </td><td id="12">12 </td><td id="13">13 <span><br>W</span></td><td id="14">14 <span><br>W</span></td><td id="15">15 <span><br>W</span></td><td id="16">16 <span><br>W</span></td><td id="17">17 </td>
+            <td id="11">11 <span><br>W</span></td><td id="12">12 </td><td id="13">13 </td><td id="14">14 <span><br>W</span></td><td id="15">15 <span><br>W</span></td><td id="16">16 </td><td id="17">17 </td>
           </tr>
           <tr>
-            <td id="18">18 </td><td id="19">19 </td><td id="20">20 <span><br>W</span></td><td id="21">21 <span><br>W</span></td><td id="22">22 <span><br>W</span></td><td id="23">23 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="24">24 </td>
+            <td id="18">18 </td><td id="19">19 <span><br>W</span></td><td id="20">20 <span><br>W</span></td><td id="21">21 </td><td id="22">22 </td><td id="23">23 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="24">24 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="25">25 </td><td id="26">26 </td><td id="27">27 <span><br>W</span></td><td id="28">28 <span><br>W</span></td><td id="29">29 <span><br>W</span></td><td id="30">30 <span><br>W</span></td><td></td>
+            <td id="25">25 <span><br>W</span></td><td id="26">26 </td><td id="27">27 </td><td id="28">28 <span><br>W</span></td><td id="29">29 <span><br>W</span></td><td id="30">30 </td><td></td>
           </tr>
         </table>
       </div>
@@ -457,22 +172,22 @@
             <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
           </tr>
           <tr>
-            <td></td><td></td><td></td><td></td><td></td><td></td><td id="1">1 <span><br>W</span></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td id="1">1 </td>
           </tr>
           <tr>
-            <td id="2">2 <span><br>W</span></td><td id="3">3 <span><br>W</span></td><td id="4">4 </td><td id="5">5 </td><td id="6">6 </td><td id="7">7 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="8">8 <span><br>W</span></td>
+            <td id="2">2 </td><td id="3">3 <span><br>W</span></td><td id="4">4 <span><br>W</span></td><td id="5">5 </td><td id="6">6 </td><td id="7">7 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="8">8 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="9">9 <span><br>W</span></td><td id="10">10 <span><br>W</span></td><td id="11">11  </td><td id="12">12  </td><td id="13">13 </td><td id="14">14 <span><br>W</span></td><td id="15">15 <span><br>W</span></td>
+            <td id="9">9 <span><br>W</span></td><td id="10">10 </td><td id="11">11  </td><td id="12">12 <span><br>W</span></td><td id="13">13 <span><br>W</span></td><td id="14">14 </td><td id="15">15 </td>
           </tr>
           <tr>
-            <td id="16">16 <span><br>W</span></td><td id="17">17 <span><br>W</span></td><td id="18">18 </td><td id="19">19 </td><td id="20">20 </td><td id="21">21 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="22">22 <span><br>W</span></td>
+            <td id="16">16 </td><td id="17">17 <span><br>W</span></td><td id="18">18 <span><br>W</span></td><td id="19">19 </td><td id="20">20 </td><td id="21">21 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="22">22 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="23">23 <span><br>W</span></td><td id="24">24 <span><br>W</span> </td><td id="25">25  </td><td id="26">26  </td><td id="27">27 </td><td id="28">28 <span><br>W</span></td><td id="29">29 </td>
+            <td id="23">23 <span><br>W</span></td><td id="24">24 </td><td id="25">25  </td><td id="26">26 <span><br>W</span></td><td id="27">27 <span><br>W</span></td><td id="28">28 </td><td id="29">29 </td>
           </tr>
           <tr>
-            <td id="30">30 </td><td id="31">31 </td><td></td><td></td><td></td><td></td><td></td>
+            <td id="30">30 </td><td id="31">31 <span><br>W</span></td><td></td><td></td><td></td><td></td><td></td>
           </tr>
         </table>
       </div>
@@ -483,19 +198,19 @@
             <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
           </tr>
           <tr>
-            <td></td><td></td><td id="1">1 <span><br>W</span></td><td id="2">2 <span><br>W</span></td><td id="3">3 <span><br>W</span></td><td id="4">4 <span><br>W</span>  <font color="red"><strong>P</strong></td><td id="5">5 </td>
+            <td></td><td></td><td id="1">1 <span><br>W</span></td><td id="2">2 </td><td id="3">3 </td><td id="4">4 <span><br>W</span>  <font color="red"><strong>P</strong></td><td id="5">5 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="6">6 </td><td id="7">7</td><td id="8">8 <span><br>W</span></td><td id="9">9 <span><br>W</span></td><td id="10">10 <span><br>W</span></td><td id="11">11 <span><br>W</span></td><td id="12">12 </td>
+            <td id="6">6 <span><br>W</span></td><td id="7">7</td><td id="8">8 </td><td id="9">9 <span><br>W</span></td><td id="10">10 <span><br>W</span></td><td id="11">11 </td><td id="12">12 </td>
           </tr>
           <tr>
-            <td id="13">13 </td><td id="14">14 </td><td id="15">15 <span><br>W</span></td><td id="16">16 <span><br>W</span></td><td id="17">17 <span><br>W</span></td><td id="18">18 <span><br>W</span>  <font color="red"><strong>P</strong></td><td id="19">19 </td>
+            <td id="13">13 </td><td id="14">14 <span><br>W</span></td><td id="15">15 <span><br>W</span></td><td id="16">16 </td><td id="17">17 </td><td id="18">18 <span><br>W</span>  <font color="red"><strong>P</strong></td><td id="19">19 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="20">20 </td><td id="21">21 </td><td id="22">22 <span><br>W</span></td><td id="23">23 <span><br>W</span></td><td id="24">24 <span><br>W</span></td><td id="25">25 <span><br>W</span></td><td id="26">26 <span><br>W</span></td>
+            <td id="20">20 <span><br>W</span></td><td id="21">21 </td><td id="22">22 </td><td id="23">23 <span><br>W</span></td><td id="24">24 <span><br>W</span></td><td id="25">25 </td><td id="26">26 </td>
           </tr>
           <tr>
-            <td id="27">27 <span><br>W</span></td><td id="28">28 <span><br>W</span></td><td id="29">29 </td><td id="30">30 </td><td id="31">31 </td><td></td><td></td>
+            <td id="27">27 </td><td id="28">28 <span><br>W</span></td><td id="29">29 <span><br>W</span></td><td id="30">30 </td><td id="31">31 </td><td></td><td></td>
           </tr>
         </table>
       </div>
@@ -509,16 +224,16 @@
             <td></td><td></td><td></td><td></td><td></td><td id="1">1 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="2">2 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="3">3 <span><br>W</span></td><td id="4">4 <span><br>W</span></td><td id="5">5 </td><td id="6">6  </td><td id="7">7 </td><td id="8">8 <span><br>W</span></td><td id="9">9 <span><br>W</span></td>
+            <td id="3">3 <span><br>W</span></td><td id="4">4 </td><td id="5">5 </td><td id="6">6 <span><br>W</span></td><td id="7">7 <span><br>W</span></td><td id="8">8 </td><td id="9">9 </td>
           </tr>
           <tr>
-            <td id="10">10 <span><br>W</span></td><td id="11">11  <span><br>W</span></td><td id="12">12 </td><td id="13">13 </td><td id="14">14 </td><td id="15">15 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="16">16 <span><br>W</span></td>
+            <td id="10">10 </td><td id="11">11  <span><br>W</span></td><td id="12">12 <span><br>W</span></td><td id="13">13 </td><td id="14">14 </td><td id="15">15 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="16">16 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="17">17 <span><br>W</span> </td><td id="18">18 <span><br>W</span></td><td id="19">19 </td><td id="20">20  </td><td id="21">21 </td><td id="22">22 <span><br>W</span></td><td id="23">23 </td>
+            <td id="17">17 <span><br>W</span> </td><td id="18">18 </td><td id="19">19 </td><td id="20">20 <span><br>W</span></td><td id="21">21 <span><br>W</span></td><td id="22">22 </td><td id="23">23 </td>
           </tr>
           <tr>
-            <td id="24">24 </td><td id="25">25 </td><td id="26">26 <span><br>W</span></td><td id="27">27 <span><br>W</span></td><td id="28">28 <span><br>W</span></td><td id="29">29 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="30">30 </td>
+            <td id="24">24 </td><td id="25">25 <span><br>W</span></td><td id="26">26 <span><br>W</span></td><td id="27">27 </td><td id="28">28 </td><td id="29">29 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="30">30 <span><br>W</span></td>
           </tr>
         </table>
       </div>
@@ -529,19 +244,19 @@
             <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
           </tr>
           <tr>
-            <td id="1">1 </td><td id="2">2 </td><td id="3">3 <span><br>W</span></td><td id="4">4 <span><br>W</span></td><td id="5">5 <span><br>W</span></td><td id="6">6 <span><br>W</span></td><td id="7">7 </td>
+            <td id="1">1 <span><br>W</span></td><td id="2">2 </td><td id="3">3 </td><td id="4">4 <span><br>W</span></td><td id="5">5 <span><br>W</span></td><td id="6">6 </td><td id="7">7 </td>
           </tr>
           <tr>
-            <td id="8">8 </td><td id="9">9 </td><td id="10">10 <span><br>W</span></td><td id="11">11 <span><br>W</span></td><td id="12">12 <span><br>W</span></td><td id="13">13 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="14">14 </td>
+            <td id="8">8 </td><td id="9">9 <span><br>W</span></td><td id="10">10 <span><br>W</span></td><td id="11">11 </td><td id="12">12 </td><td id="13">13 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="14">14 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="15">15 </td><td id="16">16 </td><td id="17">17 <span><br>W</span></td><td id="18">18 <span><br>W</span></td><td id="19">19 <span><br>W</span></td><td id="20">20 <span><br>W</span></td><td id="21">21 <span><br>W</span></td>
+            <td id="15">15 <span><br>W</span></td><td id="16">16 </td><td id="17">17 </td><td id="18">18 <span><br>W</span></td><td id="19">19 <span><br>W</span></td><td id="20">20 </td><td id="21">21 </td>
           </tr>
           <tr>
-            <td id="22">22 <span><br>W</span></td><td id="23">23 <span><br>W</span></td><td id="24">24 </td><td id="25">25 </td><td id="26">26 </td><td id="27">27 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="28">28 <span><br>W</span></td>
+            <td id="22">22 </td><td id="23">23 <span><br>W</span></td><td id="24">24 <span><br>W</span></td><td id="25">25 </td><td id="26">26 </td><td id="27">27 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="28">28 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="29">29 <span><br>W</span></td><td id="30">30 <span><br>W</span> </td><td id="31">31 </td><td></td><td></td><td></td><td></td>
+            <td id="29">29 <span><br>W</span></td><td id="30">30 </td><td id="31">31 </td><td></td><td></td><td></td><td></td>
           </tr>
         </table>
       </div>
@@ -552,19 +267,19 @@
             <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
           </tr>
           <tr>
-            <td></td><td></td><td></td><td id="1">1  </td><td id="2">2 </td><td id="3">3 <span><br>W</span></td><td id="4">4 <span><br>W</span></td>
+            <td></td><td></td><td></td><td id="1">1  <span><br>W</span></td><td id="2">2 <span><br>W</span></td><td id="3">3 </td><td id="4">4 </td>
           </tr>
           <tr>
-            <td id="5">5 <span><br>W</span></td><td id="6">6 <span><br>W</span></td><td id="7">7 </td><td id="8">8 </td><td id="9">9 </td><td id="10">10 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="11">11 <span><br>W</span></td>
+            <td id="5">5 </td><td id="6">6 <span><br>W</span></td><td id="7">7 <span><br>W</span></td><td id="8">8 </td><td id="9">9 </td><td id="10">10 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="11">11 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="12">12 <span><br>W</span></td><td id="13">13 <span><br>W</span></td><td id="14">14 </td><td id="15">15  </td><td id="16">16 </td><td id="17">17 <span><br>W</span></td><td id="18">18 </td>
+            <td id="12">12 <span><br>W</span></td><td id="13">13 </td><td id="14">14 </td><td id="15">15 <span><br>W</span></td><td id="16">16 <span><br>W</span></td><td id="17">17 </td><td id="18">18 </td>
           </tr>
           <tr>
-            <td id="19">19 </td><td id="20">20 </td><td id="21">21 <span><br>W</span></td><td id="22">22 <span><br>W</span></td><td id="23">23 <span><br>W</span></td><td id="24">24 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="25">25 </td>
+            <td id="19">19 </td><td id="20">20 <span><br>W</span></td><td id="21">21 <span><br>W</span></td><td id="22">22 </td><td id="23">23 </td><td id="24">24 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="25">25 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="26">26 </td><td id="27">27 </td><td id="28">28 <span><br>W</span></td><td id="29">29 <span><br>W</span></td><td id="30">30 <span><br>W</span></td><td></td><td></td>
+            <td id="26">26 <span><br>W</span></td><td id="27">27 </td><td id="28">28 </td><td id="29">29 <span><br>W</span></td><td id="30">30 <span><br>W</span></td><td></td><td></td>
           </tr>
         </table>
       </div>
@@ -575,36 +290,36 @@
             <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
           </tr>
           <tr>
-            <td></td><td></td><td></td><td></td><td></td><td id="1">1 <span><br>W</span></td><td id="2">2 </td>
+            <td></td><td></td><td></td><td></td><td></td><td id="1">1 </td><td id="2">2 </td>
           </tr>
           <tr>
-            <td id="3">3 </td><td id="4">4 </td><td id="5">5 <span><br>W</span></td><td id="6">6 <span><br>W</span></td><td id="7">7 <span><br>W</span></td><td id="8">8 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="9">9  </td>
+            <td id="3">3 </td><td id="4">4 <span><br>W</span></td><td id="5">5 <span><br>W</span></td><td id="6">6 </td><td id="7">7 </td><td id="8">8 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="9">9 <span><br>W</span></td>
           </tr>
           <tr>
-            <td id="10">10 </td><td id="11">11 </td><td id="12">12 <span><br>W</span></td><td id="13">13 <span><br>W</span></td><td id="14">14 <span><br>W</span></td><td id="15">15 <span><br>W</span></td><td id="16">16 <span><br>W</span></td>
+            <td id="10">10 <span><br>W</span></td><td id="11">11 </td><td id="12">12 </td><td id="13">13 <span><br>W</span></td><td id="14">14 <span><br>W</span></td><td id="15">15 </td><td id="16">16 </td>
           </tr>
           <tr>
-            <td id="17">17 <span><br>W</span></td><td id="18">18 <span><br>W</span></td><td id="19">19 </td><td id="20">20 </td><td id="21">21 </td><td id="22">22 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="23">23 <span><br>W</span>
+            <td id="17">17 </td><td id="18">18 <span><br>W</span></td><td id="19">19 <span><br>W</span></td><td id="20">20 </td><td id="21">21 </td><td id="22">22 <span><br>W</span> <font color="red"><strong>P</strong></td><td id="23">23 <span><br>W</span>
           </tr>
           <tr>
-            <td id="24">24 <span><br>W</span></td><td id="25">25 <span><br>W</span></td><td id="26">26 </td><td id="27">27  </td><td id="28">28 </td><td id="29">29 <span><br>W</span></td><td id="30">30 <span><br>W</span></td>
+            <td id="24">24 <span><br>W</span></td><td id="25">25 </td><td id="26">26 </td><td id="27">27 <span><br>W</span></td><td id="28">28 <span><br>W</span></td><td id="29">29 </td><td id="30">30 </td>
           </tr>
           <tr>
-            <td id="31">31 <span><br>W</span></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td id="31">31 </td><td></td><td></td><td></td><td></td><td></td><td></td>
           </tr>
         </table>
       </div>
     </div>
     <div class="menubuttons">
       <!--<div class="dropdown"> -->
-        <button onclick="window.location.href = 'newcalendar.html';" class="dropbtn"  style="background-color: #99ceff;">12 Hr Shift A</button>
+        <button onclick="window.location.href = 'oldcalendar.html';" class="dropbtn"  style="background-color: #99ceff;">10 Hr Shift A</button>
       <!--  <div id="Dropdown" class="dropdown-content">
           <a href="#" onClick="yearChange(2022)">2022</a>
           <a href="#" onClick="yearChange(2023)">2023</a>
         </div>
       </div> -->
       <!-- <div class="dropdown"> -->
-        <button onclick="window.location.href = 'newcalendarB.html';" class="shiftbutton" style="background-color: #80c996;">12 Hr Shift B</button>
+        <button onclick="window.location.href = 'oldcalendarB.html';" class="shiftbutton" style="background-color: #80c996;">10 Hr Shift B</button>
       <!-- </div> -->
     </div>
   </body>
